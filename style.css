@@ -1,0 +1,130 @@
+.bod {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/49060978-dcd2-46a5-af8a-7e739e6bb4c1/db3ci93-47182285-4f48-48cf-b3e0-627c56febb5e.png);
+}
+.meme {
+    position: relative;
+    display: inline-block;
+    margin-right: 1%;
+    
+}
+
+.meme:hover .overlay{
+    opacity: .5;
+    cursor: pointer;
+}
+
+.overlay {
+    margin-left: 5%;
+    border-radius: 10px;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    left: -10px;
+    right: -10px;
+    height: 75%;
+    width: 75%;
+    opacity: 0;
+    background-color: transparent;
+
+}
+
+.overlayText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.meme img{
+    margin-left: 5%;
+    max-width: 25vw;
+    max-height: 25vw;
+    border-radius: 10px;
+}
+
+.memetext {
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+
+.top{
+    top: 5%;
+}
+
+.bottom {
+    bottom: 5%;
+}
+
+form input{
+    position: relative;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: black; 
+    padding: 2px;
+    color:white; 
+    size: 100px;
+    display: block;
+    margin-top: 1%;
+}
+.url {
+    margin-left: 32.5%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+}
+.top-text {
+    margin-left: 32.5%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    border-radius: 5px;
+    
+}
+.bottom-text {
+    margin-left: 32.5%;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    border-radius: 5px;
+      
+}
+.button {
+    margin-left: 40.5%;
+    padding-top: 3px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+}
+/* .input  {
+    
+} */
+.banner {
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    margin-left: 4%;
+}
+.tag {
+    margin-left: 25%;
+}
